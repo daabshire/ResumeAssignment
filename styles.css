@@ -1,0 +1,62 @@
+/*colors I am using
+FloralWhite
+GhostWhite
+DimGray
+#76b5c5
+#154c79
+*/
+
+body {
+    background-color:floralwhite;
+    color: dimgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+
+.content-wrap{
+    margin: 0 auto;
+    width: 700px;
+}
+header {
+    color: ghostwhite;
+    background-color: #76b5c5;
+    margin:0%;
+    padding: 10px;
+    border-bottom: 3px solid dimgray;
+}
+
+h1 {
+    font-family:'Caveat', cursive;
+}
+p a {
+    border: 1px solid ghostwhite;
+    border-radius: 5px;
+    background-color: #154c79;
+    padding: .25em;
+    color: ghostwhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#projects, #experience {
+    border-bottom: 1px dashed dimgray;
+}
+#projects img {
+    height: 200px;
+    width: 350px;
+    align-items: center;
+}
+
+footer {
+    background-color: dimgray;
+    color: ghostwhite;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+footer a {
+    color: ghostwhite;
+}
+footer h2 {
+    font-family:'Caveat', cursive;
+}
